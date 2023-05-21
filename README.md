@@ -14,7 +14,7 @@ Este encriptador nos permite encriptar textos y asi mismo poder desencriptarlos.
 - No deben ser utilizados letras con acentos ni caracteres especiales
 
 <p align="center" >
-     <img src="">
+     <img src="./assets/resultado.png">
 </p>
 
 ## 📑 Ejemplo
