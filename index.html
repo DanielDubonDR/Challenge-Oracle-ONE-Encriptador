@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encriptador de Textos</title>
+  <link rel="shortcut icon" href="assets/logoicon.svg" type="image/x-icon">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://code.iconify.design/3/3.0.1/iconify.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+
+  <header>
+    <a href="https://www.aluracursos.com/" target="_blank" rel="noopener noreferrer"><img src="assets/logoicon.svg" alt="Logo Alura Company"></a>
+  </header>
+
+  <main>
+    <div class="body">
+      <div class="body-input">
+        <textarea class="body-input-text" placeholder="Ingrese el texto aquí."></textarea>
+        <p>Sólo letras minúsculas y sin acentos.</p>
+        <div class="body-input-btn">
+          <button id="encrypting">Encriptar</button>
+          <button id="decrypting">Desencriptar</button>
+        </div>
+      </div>
+      <div class="body-output">
+        <div id="face" class="body-output-card">
+          <img src="assets/search.svg" alt="Primera encriptacion">
+          <h3>Ningún mensaje fue encontrado</h3>
+          <h4>Ingresa el texto que deseas encriptar o desencriptar.</h4>
+        </div>
+        <div id="to-show" class="body-output-card to-hide">
+          <p class="body-output-card-text"></p>
+          <button id="copy">Copiar</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy Copyright 2023 Oracle + Alura Latam | <a href="https://linkedin.com/in/daniel-reginaldo-dub%C3%B3n-rodr%C3%ADguez-32a548224" target="_blank"><strong>Daniel Dubón</strong></a></p>
+  </footer>
+
+  <script src="js/app.js" defer></script>
+
+</body>
+</html>
